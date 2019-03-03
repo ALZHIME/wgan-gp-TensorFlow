@@ -6,6 +6,7 @@ https://github.com/changwoolee/WGAN-GP-tensorflow
 
 I refered the above codes.
 
+original paper:https://arxiv.org/abs/1704.00028
 
 usage:
 put named "data" folder in this directory.
