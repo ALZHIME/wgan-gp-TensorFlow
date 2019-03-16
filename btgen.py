@@ -42,6 +42,6 @@ class BatchGenerator:
             input = cv2.resize(input,self.imgSize)
             if self.aug:
                 input = self.augment(input)
-            x[i,:,:,:] = (input - 127.5) / 127.5 # normalize between -0.5 ~ +0.5 <- requirements from using tanh in the last processing in the Generator
+            x[i,:,:,:] = (input - 127.5) / 127.5 
 
         return x
