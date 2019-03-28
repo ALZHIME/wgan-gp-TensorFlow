@@ -83,8 +83,6 @@ def main():
     X_hat = X_real + epsilon * (X_fake - X_real)
     D_X_hat = buildDiscriminator(X_hat,nBatch=bs,reuse=True,isTraining=False)
     grad_D_X_hat = tf.gradients(D_X_hat, [X_hat])[0]
-    red_idx = range(1, X_hat.shape.ndims)
-    print(red_idx)
     slopes = tf.sqrt(tf.reduce_sum(tf.square(grad_D_X_hat),axis=[1,2,3]))
     gradient_penalty = tf.reduce_mean((slopes - 1.) ** 2)
 
