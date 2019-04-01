@@ -9,7 +9,7 @@ I refered the above codes.
 
 original paper:https://arxiv.org/abs/1704.00028
 
-##usage:
+## usage:
 put named "data" folder in this directory.
 
 data folder includes images for train.
