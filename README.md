@@ -27,5 +27,4 @@ data
   ├ aaa.png
   ...
   └ zzz.jpg
-
 ```
