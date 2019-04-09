@@ -9,7 +9,7 @@ I refered the above codes.
 
 original paper:https://arxiv.org/abs/1704.00028
 
-## usage:
+## usage
 put named "data" folder in this directory.
 
 data folder includes images for train.
@@ -17,3 +17,15 @@ data folder includes images for train.
 to train: python main.py
 
 to generate: python pred.py
+
+like this
+```
+main.py
+pred.py
+data
+  ├ 000.jpg
+  ├ aaa.png
+  ...
+  └ zzz.jpg
+
+```
