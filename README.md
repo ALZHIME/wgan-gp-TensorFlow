@@ -14,7 +14,11 @@ put named "data" folder in this directory.
 
 data folder includes images for train.
 
-to train: python main.py
+to train
+
+'''
+python main.py
+'''
 
 to generate: python pred.py
 
