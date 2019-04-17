@@ -16,11 +16,16 @@ data folder includes images for train.
 
 to train
 
-'''
+```
 python main.py
-'''
+```
 
-to generate: python pred.py
+
+to generate
+
+```
+python pred.py
+```
 
 like this
 ```
