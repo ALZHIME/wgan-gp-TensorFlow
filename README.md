@@ -1,4 +1,4 @@
-# wgan-gp-TensorFlow
+# wgan-gp-TensorFlo
 Implemented wgan-gp using Tensorflow
 see also:
 https://github.com/ysasaki6023/faceGAN/tree/v1.0
