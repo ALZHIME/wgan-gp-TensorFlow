@@ -37,3 +37,9 @@ data
   ...
   └ zzz.jpg
 ```
+
+## Result examples
+
+Generation of anime faces
+
+<img src = 'Result/example.png' >
